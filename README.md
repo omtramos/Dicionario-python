@@ -583,6 +583,11 @@ Saída:
 ### `open()`
 Abre um arquivo. Os modos mais usados são `"r"` para ler, `"w"` para escrever e `"a"` para acrescentar conteúdo ao final.
 
+```python
+arquivo = open("exemplo.txt", "w", encoding="utf-8")
+arquivo.close()
+```
+
 ### `write()` e `close()`
 `write()` escreve no arquivo e `close()` fecha o arquivo.
 
